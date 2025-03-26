@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"id="toppen" class="dark-mode" class="light-mode">
+        
+        <div class="header" id="header"><h2>Velkommen til min nettside!</h2></div>
+        <div class="nav" id="nav2">
+        <aside>
+           <nav>
+                <ul>
+                    <h3>Side Meny</h3>
+                    <li><a href="#toppen">Toppen</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a id="we" href=""></a></li>
+                    <li>
+                        <button id="themeToggle">Bytt Tema Farger</button>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+            <div class="content">
+                <h3>Rask info</h3>
+                <p>Jeg har laget denne nettsiden for å vise det jeg kan om css, html og js. (mest om css manupilering med JavaScript)</p>
+            </div>
+
+
+            <div class="kant" id="kant"></div>
+            <div class="kant2" id="kant2"></div>
+            <div class="kant3" id="kant3">
+                <h3>Dette er det jeg har jobbet med i JS i det siste</h3>
+                <p>Her kan du trykke på denne knappen så vil den bytte farge</p>
+                <button onclick="changeBackgroundColor()">Endre farge</button>
+                <button onclick="changeBack()">Reset fargen</button>
+                <div><h3>Dette er koden jeg brukte til å kunne bytte bakgrunnsfargen </h3></div>
+                <div>
+                    <iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/olehei/embed/preview/azbjRQQ?default-tab=html" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen 
+                        <a href="https://codepen.io/olehei/pen/azbjRQQ">Untitled</a> by ole (<a href="https://codepen.io/olehei">@olehei</a>)
+                    on <a href="https://codepen.io">CodePen</a>.
+                  </iframe>
+                </div>
+
+                <div><h3>Her er koden jeg brukte for "bytt tema farger" knappen</h3></div>
+                <div>
+                    <iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/olehei/embed/preview/VYwBVww?default-tab=html" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href="https://codepen.io/olehei/pen/VYwBVww">
+                    Untitled</a> by ole (<a href="https://codepen.io/olehei">@olehei</a>)
+                    on <a href="https://codepen.io">CodePen</a>.
+                  </iframe>
+                </div>
+            </div>
+            <div class="kant4" id="kant4"><h3>Noe annet kult</h3>
+                <h5>Her så vil du tilfeldig velge en av elementene på nettisden å bytte bakgrunnsfargen på den med å trykke på "endre farge", og så kan du resete den tilbake med "reset fargen".</h5>
+                <button onclick="changeBackgroundColor2()">Endre farge</button>
+                <button onclick="changeBack2()">Reset fargen</button>
+                
+
+            </div>
+            <div class="kant5" id="kant5">
+                <h2>Legg til i side menyen</h2>
+                
+                <select id="wordList">
+                    <option value="Endre farge"><button onclick="changeBackgroundColor2()">Endre farge på elementene</button></option>
+                </select>
+                <button onclick="addToDo()">Legg til</button>
+                <div id="todoList"></div>
+            </div>
+
+            
+            <div class="footer">
+                <h4>Denne nettsiden er laget av Felix Bakke - Elev På Åssiden Vgs 1imb </h4>
+                
+            </div>
+      </div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

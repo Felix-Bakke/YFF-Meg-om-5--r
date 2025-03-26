@@ -1,0 +1,235 @@
+
+body {
+    font-family: system-ui;
+    line-height: 1.4;
+  }
+  html {
+      scroll-behavior:smooth;
+  }
+  .container{
+      list-style: none;
+  }
+  /*grid systemet*/
+  .container {
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "nav content"
+        "nav kant"
+        "nav kant2"
+        "nav kant3"
+        "nav kant4"
+        "nav kant5"
+        "footer footer";
+      gap: 0.8em;
+      background-color: #ffffff00;
+      padding: 5px;
+      list-style: none;
+      text-decoration: none
+      
+    }
+    .container > div {
+        background-color: rgba(247, 247, 247, 0);
+      padding: 0.8em;
+      text-decoration: none
+
+    }
+    .container > div.header {
+      grid-area: header;
+      text-align: center;
+      background-color: rgba(253, 253, 253, 0);
+    }
+    .container > div.content {
+      grid-area: content;
+      background-color: rgba(168, 36, 36, 0);
+    }
+    .container > div.nav {
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0.3em solid rgb(0, 0, 0);
+    border-radius: 15px;
+    }
+
+    .container > div.kant{
+        grid-area: kant;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .container > div.kant2{
+        grid-area: kant2;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .container > div.kant3{
+        grid-area: kant3;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .container > div.kant4{
+        grid-area: kant4;
+        background-color: rgba(255, 255, 255, 0);
+    }
+     .container > div.kant5{
+        grid-area: kant5;
+        background-color: rgba(255, 255, 255, 0);
+        
+    }
+
+   .container > div.footer {
+      grid-area: footer;
+      margin: 10em 0em 0em 0em;
+      height: 20em;
+      background-color: rgba(252, 242, 223, 0.938);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    
+
+ 
+    ul {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        margin: 0em 1.8em 0em 0em;
+        
+    }
+
+    
+  .kant {
+    background-color: rgb(255, 255, 255);
+  }
+  .kant2 {
+    background-color: rgb(255, 255, 255);
+  } .kant3 {
+    background-color: rgb(255, 255, 255);
+  } .kant {
+    background-color: rgb(255, 255, 255);
+  } .kant {
+    background-color: rgb(255, 255, 255);
+  } .kant {
+    background-color: rgb(255, 255, 255);
+  }
+
+
+    nav{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        background-color:rgba(255, 255, 255, 0);
+    }
+
+  
+  #nav2 {
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    align-self: start;
+    list-style:none;
+
+  }
+  
+
+  /* for å fjerne doten og understrek på linkene*/
+  ul{
+    list-style-type: none;
+  }
+a {
+    color:black;
+    font-style: none;
+    text-decoration: none;
+    
+}
+
+
+
+li:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* endre farge temaet*/
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    position: fixed;
+   
+    
+    
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 1em;
+    
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Lys modus */
+.light-mode {
+    background: white;
+    color: black;
+    
+}
+
+.dark-mode .container1{
+    border-color:white;
+}
+
+
+/* Mørk modus */
+.dark-mode {
+    background: #222;
+    color: white;
+}
+
+.dark-mode li {
+    color: white;
+}
+.dark-mode a {
+    color: white;
+}
+
+
+.dark-mode button {
+    background-color: #ff9800;
+}
+
+.dark-mode button:hover {
+    background-color: #e68900;
+}
+
+
+
+
+
+
